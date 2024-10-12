@@ -1,0 +1,26 @@
+table, th, td{
+  border: 1px solid tomato;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+tr{
+  border-bottom: 2px solid #ddd;
+}
+
+table{
+  border-spacing: 30px;
+  color: white;
+}
+
+th{
+  background-color: green;
+}
+
+tr:nth-child(even){
+  background-color: skyblue;
+}
+
+tr:nth-child(odd){
+  background-color: blue;
+}
